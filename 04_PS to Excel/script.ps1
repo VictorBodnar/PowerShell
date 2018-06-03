@@ -6,7 +6,7 @@ $sheet = $book.Worksheets.Item(1)
 $sheet.name = 'Users'
 $sheet.Activate() | Out-Null
 
-$row = 1
+$row = 12
 $column = 1
 
 $headers = "E-mail","Username","Password","Domain Account","Enabled","Time Zone","Locale","NickName","Title",`
