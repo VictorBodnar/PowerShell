@@ -5,6 +5,7 @@ $group_id = "c75ac6c0-fe06-4935-a385-040bc2241cd5"
 $role_id = "937759dc-56a6-4146-b519-88a7916c2152"
 $file_import = "E:\NP_Storage\NP_Projects\PUK_Reporting\03_Recipients\PROD\FolderRecipientsCountry.txt"
 
+
 #perform NTLM authentication
 $auth = Invoke-WebRequest -uri https://$NP_server/api/v1/login/ntlm -UseDefaultCredentials -SessionVariable session
 
